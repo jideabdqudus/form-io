@@ -1,4 +1,4 @@
-var PROJECT_URL = 'https://reactstarter.form.io';
+var PROJECT_URL = 'https://pntjtuillpyztjb.form.io';
 var API_URL = 'https://api.form.io';
 
 var query = {};
@@ -8,7 +8,7 @@ window.location.search.substr(1).split('&').forEach(function(item) {
 
 PROJECT_URL = query.projectUrl || PROJECT_URL;
 API_URL = query.apiUrl || API_URL;
-
+ 
 export const AppConfig = {
   projectUrl: PROJECT_URL,
   apiUrl: API_URL

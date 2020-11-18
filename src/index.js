@@ -8,7 +8,7 @@ import App from './App'
 
 import components from './components';
 import {AppConfig} from './config';
-
+//import 'antd/dist/antd.css // or 'antd/dist/antd.less'';
 import './styles.scss'
 
 Formio.setProjectUrl(AppConfig.projectUrl);

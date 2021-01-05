@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
-<package>
   <metadata>
     <id>form-io</id>
     <version>1.0.0</version>
@@ -13,6 +12,3 @@
   <file src="build\**" target="" />
   </files>
 </package>
-
-
-
